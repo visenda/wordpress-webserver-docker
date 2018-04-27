@@ -5,7 +5,7 @@ MAINTAINER Adis Heric <adis.heric@visenda.com>
 # additional env vars
 ENV \
     # wordpress
-    WP_URL="http://192.168.99.100/" \
+    WP_URL="http://192.168.99.100/"
 
 # add php extensions
 RUN docker-php-ext-install \
