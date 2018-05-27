@@ -79,7 +79,7 @@ http {
             fastcgi_buffer_size 32k;
 
         $([[ $PROXY_FORWARD_HTTPS == 1 ]] && echo "\
-            fastcgi_param  HTTPS \$has_https;\
+            fastcgi_param HTTPS \$has_https;\
         ")
         }
 
